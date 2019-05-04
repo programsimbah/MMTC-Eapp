@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:background="@drawable/ic_box_bottom_left_border"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/thumbnail_promotion"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp" />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:background="@drawable/ic_box_left_rad"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:text="RAJA TAMAK"
+                    android:textStyle="bold"
+                    android:id="@+id/title_promotion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="RAJA TAMAK"
+                    android:textSize="12dp"
+                    android:id="@+id/title_shortdesc_promotion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/promotion_tre"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_box_rad"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="detail"
+                android:textColor="@color/Tputih" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,219 @@
+{
+  "project_info": {
+    "project_number": "350504681787",
+    "firebase_url": "https://sekolah-7bd55.firebaseio.com",
+    "project_id": "sekolah-7bd55",
+    "storage_bucket": "sekolah-7bd55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350504681787:android:51a97d158793753f",
+        "android_client_info": {
+          "package_name": "com.pengembangsebelah.stmmappxo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350504681787-r3o5ot0po4drfnuquqmcgg6kcc3kgtr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pengembangsebelah.stmmappxo",
+            "certificate_hash": "189dfafa1000853e2573f87f54f263795691d7fc"
+          }
+        },
+        {
+          "client_id": "350504681787-k3labces4h8bouidbvile4kqlkd06trc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXFlyqMGsQM1RG6ArUd7s40WVF_mbXqjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350504681787-k3labces4h8bouidbvile4kqlkd06trc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350504681787:android:0b5e31cc75eb970d",
+        "android_client_info": {
+          "package_name": "com.programsebelah.stmmappxo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350504681787-4inqi8qugtphssav4ajfg9139qo4sae6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.programsebelah.stmmappxo",
+            "certificate_hash": "189dfafa1000853e2573f87f54f263795691d7fc"
+          }
+        },
+        {
+          "client_id": "350504681787-k3labces4h8bouidbvile4kqlkd06trc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXFlyqMGsQM1RG6ArUd7s40WVF_mbXqjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350504681787-k3labces4h8bouidbvile4kqlkd06trc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350504681787:android:b03c77b627e097a7",
+        "android_client_info": {
+          "package_name": "com.samuddeveloper.radiommtce2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350504681787-k3labces4h8bouidbvile4kqlkd06trc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXFlyqMGsQM1RG6ArUd7s40WVF_mbXqjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-7283269429309581~6571864245"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350504681787:android:24927ba27378f19e",
+        "android_client_info": {
+          "package_name": "com.samuddeveloper.radiommtce2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350504681787-o0jvnohma6050mpb7hfmkm5mhef0bf19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samuddeveloper.radiommtce2019",
+            "certificate_hash": "189dfafa1000853e2573f87f54f263795691d7fc"
+          }
+        },
+        {
+          "client_id": "350504681787-k3labces4h8bouidbvile4kqlkd06trc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXFlyqMGsQM1RG6ArUd7s40WVF_mbXqjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350504681787-k3labces4h8bouidbvile4kqlkd06trc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350504681787:android:f8e8bebe4b521b62",
+        "android_client_info": {
+          "package_name": "com.xstudio.stmm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350504681787-f2b9beb73813alkqt18uovpqj4orteoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xstudio.stmm",
+            "certificate_hash": "189dfafa1000853e2573f87f54f263795691d7fc"
+          }
+        },
+        {
+          "client_id": "350504681787-k3labces4h8bouidbvile4kqlkd06trc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXFlyqMGsQM1RG6ArUd7s40WVF_mbXqjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350504681787-k3labces4h8bouidbvile4kqlkd06trc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

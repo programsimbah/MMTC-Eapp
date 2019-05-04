@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="Just leave?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/rata_appa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rate app"
+                android:layout_margin="5dp"
+                android:textColor="@color/Tputih"
+                android:backgroundTint="@color/colorAccent"
+                android:background="@drawable/ic_box_rad"/>
+
+            <Button
+                android:id="@+id/ekit_apap"
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:text="exit"
+                android:textColor="@color/Tputih"
+                android:backgroundTint="@color/colorAccent"
+                android:background="@drawable/ic_box_rad"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="we care about your privacy and data security. We keep this app showing ads"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Can we continue to use your data to tailor ads for you?"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="we use ads partner serve : Admob and Inmobi, our partner collect data and use uniq indentifier on your device to show ads."
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/detaiolio"
+                android:padding="5dp"
+                android:text="click me for more detail privacy police"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:focusable="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/check_gdpr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="never show this again"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/button_oke_gdpr"
+                android:background="@drawable/ic_box_rad"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/Tputih"
+                android:text="Yes, continue i know that"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/gdpr_pay"
+                android:background="@drawable/ic_box_rad"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/Tputih"
+                android:text="Dont show ads for me, by $1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

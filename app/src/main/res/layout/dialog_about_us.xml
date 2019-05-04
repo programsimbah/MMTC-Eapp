@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/copyesteh"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_small">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/oswald_bold"
+                    android:text="Mmtc Radio Jogja"
+                    android:textSize="@dimen/size_h1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/oswald_light"
+                    android:text="Jl. Magelang KM.6, Sinduadi, Mlati, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55284"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/size_h2"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/margin_big"
+                    android:layout_marginBottom="@dimen/margin_big">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oswald_bold"
+                        android:text="Follow Us :"
+                        android:textSize="@dimen/size_h1" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:id="@+id/facebbok_button"
+                            android:layout_width="@dimen/ic_size"
+                            android:layout_height="@dimen/ic_size"
+                            android:background="@drawable/fb"
+                            android:contentDescription="TODO" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/oswald"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:text="@string/facebook"
+                            android:textSize="@dimen/size_h2" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:id="@+id/twitter_button"
+                            android:layout_width="@dimen/ic_size"
+                            android:layout_height="@dimen/ic_size"
+                            android:background="@drawable/twitter"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/oswald"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:text="@string/twitter"
+                            android:textSize="@dimen/size_h2" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:id="@+id/instagram_button"
+                            android:layout_width="@dimen/ic_size"
+                            android:layout_height="@dimen/ic_size"
+                            android:background="@drawable/instagram"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/oswald"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:text="@string/instagram"
+                            android:textSize="@dimen/size_h2" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:id="@+id/line_button"
+                            android:layout_width="@dimen/ic_size"
+                            android:layout_height="@dimen/ic_size"
+                            android:background="@drawable/line"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/oswald"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:text="@string/line"
+                            android:textSize="@dimen/size_h2" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:id="@+id/web_button"
+                            android:layout_width="@dimen/ic_size"
+                            android:layout_height="@dimen/ic_size"
+                            android:background="@drawable/web"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/oswald"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:text="@string/website"
+                            android:textSize="@dimen/size_h2" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/copyesteh"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/margin_small">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/putih"
+            android:text="Copyright 2018 radiommtcjogja"
+            android:textSize="@dimen/size_h2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/putih"
+            android:text="Created by : developersebelah n Abrian14"
+            android:textSize="@dimen/size_h2" />
+    </LinearLayout>
+
+</RelativeLayout>
