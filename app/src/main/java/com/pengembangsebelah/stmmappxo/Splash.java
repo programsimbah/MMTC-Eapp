@@ -2,16 +2,17 @@ package com.pengembangsebelah.stmmappxo;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.AppCompatCheckBox;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatCheckBox;
 
 import com.google.ads.consent.ConsentInformation;
 import com.google.ads.consent.ConsentStatus;
@@ -23,6 +24,7 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(com.pengembangsebelah.stmmappxo.R.layout.activity_splash);
+
 
         AlertDialog.Builder builder=new AlertDialog.Builder(this);
         LayoutInflater layoutInflater = this.getLayoutInflater();
@@ -66,4 +68,9 @@ public class Splash extends AppCompatActivity {
         });
         alertDialog.show();
     }
+//
+//    public Boolean Langsung(){
+//
+//        return
+//    }
 }

@@ -1,5 +1,6 @@
 package com.pengembangsebelah.stmmappxo.core.mediapapa;
 
+import android.annotation.SuppressLint;
 import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -12,7 +13,6 @@ import android.net.wifi.WifiManager;
 import android.os.Binder;
 import android.os.Handler;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 import android.support.v4.media.MediaMetadataCompat;
 import android.support.v4.media.session.MediaControllerCompat;
 import android.support.v4.media.session.MediaSessionCompat;
@@ -136,7 +136,6 @@ public class RadioService extends Service implements Player.EventListener, Audio
         }
     };
 
-    @Nullable
     @Override
     public IBinder onBind(Intent intent) {
 
@@ -174,6 +173,7 @@ public class RadioService extends Service implements Player.EventListener, Audio
         status = PlaybackStatus.IDLE;
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 

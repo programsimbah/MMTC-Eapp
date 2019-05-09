@@ -10,8 +10,8 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationManagerCompat;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 
 import com.pengembangsebelah.stmmappxo.MainActivity;
 import com.pengembangsebelah.stmmappxo.R;
@@ -122,7 +122,7 @@ public class MediaNotificationManager {
                 .addAction(R.drawable.ic_clear_black_24dp, "stop", stopAction)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setWhen(System.currentTimeMillis())
-                .setStyle(new android.support.v4.media.app.NotificationCompat.MediaStyle()
+                .setStyle(new androidx.media.app.NotificationCompat.MediaStyle()
                         .setMediaSession(service.getMediaSession().getSessionToken())
                         .setShowActionsInCompactView(0, 1)
                         .setShowCancelButton(true)

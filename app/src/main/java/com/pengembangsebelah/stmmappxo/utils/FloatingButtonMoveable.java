@@ -1,10 +1,11 @@
 package com.pengembangsebelah.stmmappxo.utils;
 
 import android.content.Context;
-import android.support.design.widget.FloatingActionButton;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class FloatingButtonMoveable extends FloatingActionButton implements View.OnTouchListener{
     public final static float CLICK_DRAG_TOLERANCE =10;

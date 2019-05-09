@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+
     <LinearLayout
         android:padding="5dp"
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
         <RelativeLayout
             android:background="@drawable/ic_box_bottom_left_border"
             android:layout_width="100dp"
             android:layout_height="100dp">
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
 
                 android:layout_marginLeft="5dp"
@@ -22,11 +25,11 @@
                     android:id="@+id/thumbnail_promotion"
                     android:layout_width="75dp"
                     android:layout_height="75dp" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
         </RelativeLayout>
 
-        <android.support.v4.widget.Space
+        <Space
             android:layout_width="5dp"
             android:layout_height="wrap_content" />
         <RelativeLayout
@@ -71,5 +74,15 @@
 
     </LinearLayout>
 
+    <RelativeLayout
+        android:background="@color/biruics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="ADS"/>
+    </RelativeLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
